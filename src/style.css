@@ -1,0 +1,44 @@
+@import "tailwindcss";
+/* .custom-popup .leaflet-popup-content-wrapper {
+  @apply bg-slate-900 border-l-8  w-48 rounded-sm;
+} */
+.running-popup .leaflet-popup-content {
+  @apply text-white text-xs font-semibold;
+}
+.cycling-popup .leaflet-popup-content {
+  @apply text-white text-xs font-semibold;
+}
+.running-popup .leaflet-popup-tip {
+  @apply bg-slate-900;
+}
+.cycling-popup .leaflet-popup-tip {
+  @apply bg-slate-900;
+}
+.running-popup .leaflet-popup-content-wrapper {
+  @apply bg-slate-900 border-l-8  w-48 rounded-sm border-green-500;
+}
+.cycling-popup .leaflet-popup-content-wrapper {
+  @apply bg-slate-900 border-l-8  w-48 rounded-sm border-orange-500;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
